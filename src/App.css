@@ -6,6 +6,42 @@
   height: 40vmin;
   pointer-events: none;
 }
+.navbar{
+  display: flex;
+  height: 45px;
+  background-color: #282c34;
+  color: aliceblue;
+  justify-content: center;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+
+.bold{
+  font-weight: bold;
+}
+.box-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2rem;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
